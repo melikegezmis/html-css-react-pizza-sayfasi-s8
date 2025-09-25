@@ -1,0 +1,196 @@
+.siparis-sayfasi{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    width: 100%;
+}
+
+
+/* Logo Section */
+
+.logo-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #CE2829;
+    width: 100%;
+}
+
+.logo{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 30px;
+    margin-bottom: 10px;
+}
+
+img{
+    align-self: center;
+    margin: 20px;
+    width: 60%;
+}
+
+
+/* Sekmeler */
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sekmeler-section{
+    width: 100%;
+    background-color: #FAF7F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sekmeler-section img{
+    width: 30%;
+    margin-top: 0;
+    
+}
+
+.sekmeler{
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: 20px 0;
+    background-color: #FAF7F2;
+    font-size: small;
+}
+
+.sekmeler button{
+    color: #CE2829;
+    font-family: "Barlow", sans-serif;
+    font-weight: lighter;
+    background-color: #FAF7F2;
+    border: 0;
+    font-weight: 600;
+}
+
+.sekmeler button:first-child{
+    color: #5F5F5F;
+}
+
+.sekmeler button:hover{
+    background-color: #FAF7F2 !important;
+    color: #ff9d00;
+
+}
+
+.sekmeler p{
+    margin: 1px 0;
+    color:#5F5F5F;
+}
+
+
+/* Bilgi Section */
+
+.bilgi-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    padding-bottom: 40px;
+    background-color: #FAF7F2;
+}
+
+.bilgi{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 20px;
+}
+
+.bilgi h4{
+    font-family: "Barlow", sans-serif;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.pizza-para{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bilgi article{
+    font-family: "Barlow", sans-serif;
+    font-weight: lighter;
+    color: #5F5F5F;
+}
+
+.pizza-para :nth-child(2){
+    position: relative;
+    left: 20%;
+}
+
+.pizza-para :nth-child(1){
+    font-size: x-large;
+    font-weight: bolder;
+    color: black;
+}
+
+.form{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media (max-width: 480px) {
+    .siparis-sayfasi{
+        width: 100%;
+    }
+
+    .logo{
+        width: 80%;
+        margin: 30px;
+        margin-bottom: 0;
+    }
+
+    img{
+        align-self: center;
+        margin: 20px;
+        width: 80%;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    /* Sekmeler */
+
+    .sekmeler{
+        width: 80%;
+    }
+
+    .sekmeler-section img{
+        width: 90%;
+    }   
+
+    /*Bilgi Section */
+
+    .bilgi{
+        width: 80%
+    }
+
+    /* Form  */
+
+    .form{
+        width: 90%;
+    }
+}

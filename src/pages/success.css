@@ -1,0 +1,161 @@
+.success-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-size: xx-large;
+}
+
+.success{
+    width: 100%;
+    background-color: #CE2829;
+    color: white;
+}
+
+
+/* Siparişiniz Alındı */
+
+.success-siparisiniz-alindi{
+    background-color: #CE2829;
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.success-logo{
+    width: 20%;
+}
+
+.success-siparisiniz-alindi p{
+    font-size: 175%;
+    line-height: 0.9;
+    font-family: "Satisfy", sans-serif;
+    color: #FDC913;
+}
+
+.success-siparisiniz-alindi h3{
+    font-size: 400%;
+    font-family: "Barlow", sans-serif;
+    border-bottom: 1px solid white;
+    padding-bottom: 40px;
+}
+
+.success-siparisiniz-alindi :first-child{
+    margin: 50px 0;
+}
+
+
+/* Yemek Verisi */
+
+.success-veriler{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.success-veriler p{
+    font-weight: 600;
+    font-size: large;
+}
+
+.veriler-section{
+    width: 10%;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.veriler-section p{
+    font-size: small;
+    font-weight: lighter;
+}
+
+.veriler-section span{
+    font-weight: 600;
+    color: white;
+}
+
+
+/* Fiyatlar */
+
+.fiyat-section{
+    width: 20%;
+    padding: 35px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.fiyat-section h6{
+    font-size: 100%;
+    margin-bottom: 20px;
+    align-self: start;
+}
+
+.fiyatlar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.fiyatlar p{
+    font-size: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fiyatlar span{
+    color: white;
+}
+
+
+
+@media (max-width: 480px) {
+
+    .success{
+        width: 100%;
+    }
+
+    /* Siparişiniz Alındı */
+
+    .success-logo{
+        width: 70%;
+    }
+
+    .success-siparisiniz-alindi p{
+        font-family: "Satisfy", sans-serif;
+        color: #FDC913;
+        margin-top: 50px;
+    }
+
+    .success-siparisiniz-alindi h3{
+        font-size: 50px;
+    }
+
+    .success-siparisiniz-alindi :last-child{
+        text-align: center;
+    }
+
+    /* Yemek Verisi */
+
+    .success-veriler{
+        width: 100%;
+    }
+
+    .veriler-section{
+        width: 50%;
+    }
+
+    /* Fiyatlar  */
+
+    .fiyat-section{
+        width: 70%;
+        margin: 20px 0 100px 0;
+    }
+}
