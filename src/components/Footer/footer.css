@@ -45,8 +45,8 @@ footer{
 }
 
 .icons-iletisim p{
-    width: 90%;
-    font-size: 15px;
+    width: 15vw;
+    font-size: 1rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -55,8 +55,8 @@ footer{
 }
 
 .icons-iletisim img{
-    width: 10%;
-    margin: 15px 15px;
+    width: 1.5rem;
+    margin: 15px 10px;
 }
 
 .icons-iletisim p:first-child img{
