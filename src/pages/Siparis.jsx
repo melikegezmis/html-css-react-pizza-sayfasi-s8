@@ -6,6 +6,10 @@ import PizzaForm from "../components/SiparisComp/PizzaForm"
 
 import Footer from "/src/components/Footer/Footer";
 
+import logo from "../../images/iteration-1-images/logo.svg";
+
+import formBanner from "../../images/iteration-2-images/pictures/form-banner.png";
+
 
 
 export default function Siparis({setSuccessVeri}) {
@@ -16,13 +20,13 @@ export default function Siparis({setSuccessVeri}) {
         <div className="siparis-sayfasi">
             <header className="logo-section">
                     <div className="logo">
-                        <img src="/images/iteration-1-images/logo.svg"/>
+                        <img src={logo}/>
                     </div>
                 </header>
 
             <main>
                 <section className="sekmeler-section">
-                    <img src="/images/iteration-2-images/pictures/form-banner.png" />
+                    <img src={formBanner} />
                     <nav className="sekmeler">
                             <button onClick={() => history.goBack()}>Anasayfa</button>
                             <p>- </p>

@@ -2,7 +2,9 @@ import Footer from "/src/components/Footer/Footer";
 
 import { useEffect } from "react";
 
-import "./success.css"
+import "./success.css";
+
+import logo from "../../images/iteration-1-images/logo.svg";
 
 export default function Success({successVeri}) {
     if (!successVeri) {
@@ -19,7 +21,7 @@ export default function Success({successVeri}) {
     return(
         <div className="success">
             <header className="success-siparisiniz-alindi">
-                <img className="success-logo" src="/images/iteration-1-images/logo.svg" />
+                <img className="success-logo" src={logo} />
                 <p>lezzetin yolda</p>
                 <h3>SİPARİŞ ALINDI</h3>
             </header>

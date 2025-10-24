@@ -1,16 +1,29 @@
 import "./footer.css"
 
+import logo from "../../../images/iteration-2-images/footer/logo-footer.svg";
+
+import icon1 from "../../../images/iteration-2-images/footer/icons/icon-1.png";
+import icon2 from "../../../images/iteration-2-images/footer/icons/icon-2.png";
+import icon3 from "../../../images/iteration-2-images/footer/icons/icon-3.png";
+
+import insta0 from "../../../images/iteration-2-images/footer/insta/li-0.png";
+import insta1 from "../../../images/iteration-2-images/footer/insta/li-1.png";
+import insta2 from "../../../images/iteration-2-images/footer/insta/li-2.png";
+import insta3 from "../../../images/iteration-2-images/footer/insta/li-3.png";
+import insta4 from "../../../images/iteration-2-images/footer/insta/li-4.png";
+import insta5 from "../../../images/iteration-2-images/footer/insta/li-5.png";
+
 export default function Footer(){
     return(
         <footer>
             <section className="footer-section">
                 <div className="footer-kisim-1">
                     <div className="iletisim">
-                        <img className="footer-logo" src="/images/iteration-2-images/footer/logo-footer.svg" />
+                        <img className="footer-logo" src={logo} />
                         <div className="icons-iletisim">
-                            <p><img src="/images/iteration-2-images/footer/icons/icon-1.png" /> 341 Londonderry Road, İstanbul Türkiye</p>
-                            <p><img src="/images/iteration-2-images/footer/icons/icon-2.png" /> aciktim@teknolojikyemekler.com</p>
-                            <p><img src="/images/iteration-2-images/footer/icons/icon-3.png" /> +90 216 123 45 67</p>
+                            <p><img src={icon1} /> 341 Londonderry Road, İstanbul Türkiye</p>
+                            <p><img src={icon2} /> aciktim@teknolojikyemekler.com</p>
+                            <p><img src={icon3} /> +90 216 123 45 67</p>
                         </div>
                     </div>
 
@@ -26,12 +39,12 @@ export default function Footer(){
 
                     <div className="instagram">
                         <h5>Instagram</h5>
-                        <img src="/images/iteration-2-images/footer/insta/li-0.png" />
-                        <img src="/images/iteration-2-images/footer/insta/li-1.png" />
-                        <img src="/images/iteration-2-images/footer/insta/li-2.png" />
-                        <img src="/images/iteration-2-images/footer/insta/li-3.png" />
-                        <img src="/images/iteration-2-images/footer/insta/li-4.png" />
-                        <img src="/images/iteration-2-images/footer/insta/li-5.png" />
+                        <img src={insta0} />
+                        <img src={insta1} />
+                        <img src={insta2} />
+                        <img src={insta3} />
+                        <img src={insta4} />
+                        <img src={insta5} />
                     </div>
                     </div>
                 
