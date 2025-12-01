@@ -95,7 +95,7 @@ export default function PizzaForm({setSuccessVeri}) {
   
         if(isValid) {
             axios.post("https://reqres.in/api/pizza", secim, {
-                headers: {"x-api-key": "reqres-free-v1"},
+                headers: {"x-api-key": "reqres_41be704f08354b7bb154fda3a2b2faa0"},
             })
             .then(response => {
                 console.log(response.data);
